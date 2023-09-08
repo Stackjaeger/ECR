@@ -1,0 +1,35 @@
+:root{
+    --blanco: #ffffff;
+    --oscuro: #22221b;
+    --primario: #ECAC2A;
+    --primarioclaro: #f1c15d;
+    --secundario: #CA4E01;
+    --gris: #757575;
+    --grisclaro: #dfe9f3;
+}
+
+/* Globales */
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-snap-type: y mandatory;
+}
+
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+
+.contenedor{
+    display: flexbox;
+}
+
+/* Formulario */
+.opciones{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.formulario--lateral{
+    padding: 1rem;
+    background-color: var(--primario);
+}
